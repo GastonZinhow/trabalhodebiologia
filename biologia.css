@@ -1,0 +1,124 @@
+/*css menu*/
+#menu ul{
+    top: 0em;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+h1{
+  color: #f7d754ff;
+  text-align: center;
+  font-family: "Dyuthi", sans-serif;
+  font-size: 2.5em;
+  clear: both;
+}
+
+h2{
+  color: #5d7c0aff ;
+  text-align: center;
+  font-family: "Dyuthi", sans-serif;
+  font-size: 2.5em;
+}
+p{
+  font-size: 22px;
+  
+}
+
+body{
+  background-color: whitesmoke;
+  text-align: justify;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+header{
+  background-color: #008499ff;
+  background-attachment: fixed;
+  padding: 15px;
+}
+.titulos>h1{
+  background-color: #008499ff;
+  padding: 9px;
+}
+/*js das imagens*/
+#esquerda{
+  position: relative;
+  float: left;
+  bottom: 4px;
+}
+#direita{
+  position: relative;
+  float: right;
+  bottom: 10px;
+}
+#trem{
+  position: relative;
+}
+[data-anime] {
+  opacity: 0;
+  transition: .3s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+[data-anime="top"] {
+  transform: translate3d(0, 50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+img{
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.poluicao{
+  background-image: url(img/poluicao.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-attachment: fixed;
+  height: 30em;
+  width: auto;
+}
+.poluicao>h1{
+   color: #87b212ff;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    text-align: center;
+    position: relative;
+    top: 3em;
+    font-size: 4em;
+  }
+
+a{
+    text-decoration: none;
+    position: relative;
+    color: #5d7c0aff;
+}
+a:hover{
+    color:#c3d123ff;
+}
+
+#trem{
+  display: block;
+  margin: auto;
+}
+
+iframe{
+  display: block;
+  margin: auto;
+}
